@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script src="calculator.js"></script>
+</head>
+<body>
+    <form action="calculator.js">
+        <h1>Calculator</h1>
+    <table>
+        <tr>
+            <th colspan="5"><input type="text" name="display" id="kk"></th>
+            <th><input type="reset" value="Ac" onclick="Del()"></th>
+        </tr>
+        <tr id="a">
+           <th><input type="button" id="1" onclick="laygt(1)" value= "1" ></th>
+           <th><input type="button" id="2" onclick="laygt(2)" value= "2" ></th>
+           <th><input type="button" id="3" onclick="laygt(3)" value= "3" ></th>
+           <th><input type="button" id="4" onclick="laygt(4)" value= "4" ></th>
+           <th><input type="button" id="5" onclick="laygt(5)" value= "5" ></th>
+           <th><input type="button" onclick="doi()" value="+"></th>
+        </tr>
+        <tr id="g">
+            <th><input type="button" id="6" onclick="laygt(6)" value= "6"></th>
+            <th><input type="button" id="7" onclick="laygt(7)" value= "7"></th>
+            <th><input type="button" id="8" onclick="laygt(8)" value= "8"></th>
+            <th><input type="button" id="9" onclick="laygt(9)" value= "9"></th>
+            <th><input type="button" id="0" onclick="laygt(0)" value= "0"></th>
+            <th><input type="button" onclick="tinh()" value="="></th>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
